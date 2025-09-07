@@ -17,7 +17,7 @@ def play():
         return "You lost!"
 
 def is_win(player, opponent):
-    # return true if player wins
+    # return true if player wins else return false
     # rock > scissors, scissors > paper, paper > rock
     if (player == "rock" and opponent == "scissors") or \
        (player == "scissors" and opponent == "paper") or \
